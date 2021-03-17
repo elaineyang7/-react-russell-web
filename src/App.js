@@ -1,13 +1,15 @@
 import React,{ Component } from 'react';
 
-import Demo from './demo';
+import Header from './components/header/header.component';
 
-import './index.css';class App extends Component{
+import './index.css';
+
+class App extends Component{
    render(){
       return(
          <div>
             
-            <Demo/>
+            <Header/>
          </div>
       );
    }

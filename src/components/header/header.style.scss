@@ -1,0 +1,54 @@
+@import '../../sassStyles/variables';
+
+header {
+  width: 100vw;
+  height: $height-header;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  z-index: 5;
+}
+
+/* Homepage Logo */
+.header__russell--logo {
+  width: $width-homepage-russell-logo;
+  height: $height-header;
+}
+
+.header__russell--logo img {
+  width: $width-homepage-russell-logo;
+  height: 100%;
+}
+
+.header__russell--logo h1 {
+  font-size: 28px;
+  color: $color-black-5-text;
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 0;
+  line-height: 33px;
+  margin: 36px 0 39px 0;
+}
+
+.header__russell--logo h1 span {
+  font-size: 28px;
+  letter-spacing: 4.06px;
+}
+
+/* Overlay Menu Btn*/
+.header__overlay--menu {
+  position: absolute;
+  z-index: 999;
+  right: 0;
+}
+
+.openbtn {
+  width: 72px;
+  height: 49px;
+  cursor: pointer;
+  position: relative;
+  top: $size-overlay-btn-position;
+  right: $size-overlay-btn-position;
+  fill: $color-black-5-text;
+}
