@@ -1,0 +1,79 @@
+@import './fonts';
+
+/**
+* Color
+*/
+
+$color-black-1-homebg: #090909;
+$color-black-2-footerbg: #191919;
+$color-black-3-formBorder: #2A2A2A;
+$color-black-4-leftNav: #2B2B2B;
+$color-black-5-text: #333333;
+$color-black-6-validText: #343434;
+$color-black-7-socialMedia: #888888;
+
+$color-white: #FFFFFF;
+
+$color-gray-1-footertext:#BBBBBB;
+$color-gray-2-socialmedia:#CCCCCC;
+$color-gray-3-printbg:#D8D8D8;
+$color-gray-4-aboutbg:#F5F5F5;
+$color-gray-5-mainbg:#FDFDFD;
+
+$color-yellow-1-main:#FFC512;
+$color-yellow-2-light:#FFDE79;
+$color-yellow-3-dark:#E5AC01;
+$color-yellow-4-contactdark: #997400;
+$color-yellow-5-invalidText: #785C03;
+
+$color-red-error: #DC5C5C;
+
+
+/**
+* Font Family
+*/
+
+$font-primary: "Arial-Black";
+$font-secondary: "SFProText-Regular";
+$font-span: "ArialMT";
+$font-sfthin: "SFProText-Thin";
+$font-sfbold: "SFProText-Bold";
+$font-sfmedium: "SFProText-Medium";
+$font-sflight: "SFProText-Light";
+$font-sfultralight: "SFProText-UltraLight";
+
+
+/**
+* Size
+*/
+
+$size-russell-logo-gear: 68px;
+$size-overlay-btn-position: 48px;
+$size-gear-logo: 63.7px;
+$size-go-back: 54px;
+
+
+/**
+* Width
+*/
+
+$width-left-nav: 100px;
+$width-homepage-russell-logo: 354px;
+$width-main-100vw: calc(100vw - #{$width-left-nav});
+
+$width-left-nav-1440: 76px;
+$width-homepage-russell-logo-1440: 264px;
+$width-main-100vw-1440: calc(100vw - #{$width-left-nav-1440});
+
+
+/**
+* Height
+*/
+
+$height-header: 108px;
+$height-section-1080-proportion: calc(56.25vw - #{$height-header});
+$height-section-100vh: calc(100vh - #{$height-header});
+
+$height-header-1440: 80.54px;
+$height-section-1080-proportion-1440: calc(56.25vw - #{$height-header-1440});
+$height-section-100vh-1440: calc(100vh - #{$height-header-1440});

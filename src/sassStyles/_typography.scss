@@ -1,0 +1,39 @@
+@import 'variables';
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: $spacing;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 12px;
+  font-family: $main-font;
+  color: $heading-color;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 16px;
+  padding: 6px 0;
+  font-weight: 600;
+}
+
+p {
+  font-family: $sec-font;
+  font-weight: 400;
+}

@@ -1,0 +1,27 @@
+@import './variables';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100vw;
+  height: 56.25vw;
+  position: relative;
+  //background-color: $color-gray5-mainbg;
+  font-family: $font-primary;
+  margin: 0;
+  padding: 0;
+  color: $color-white;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: $color-white;
+}
+
+li {
+  list-style: none;
+}
